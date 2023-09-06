@@ -6,14 +6,12 @@ Spring Boot 3.1.2
 - Cache (Caffeine 3.1.8)
 - Embedded H2 Database
 #### 실행 방법
-프로젝트 폴더 내 /jar
-```
-java -jar pay-securities-test-1.0.0.jar 
-```
+프로젝트 폴더 내 /jar 실행
+
 실행 시 서버 포트 : 8080
 H2 Console 포트 : 8078 (http://127.0.0.1:8078)
 ---
-### 2. 문제 해결 전략 및 분석 내용
+### 2. 요구사항 및 제반사항
 #### 2.1 요구사항
 - 종목 인기순
     - 조회수 테이블에서 COUNT 컬럼의 값을 기준으로 정렬
